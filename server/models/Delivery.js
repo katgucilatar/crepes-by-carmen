@@ -20,7 +20,7 @@ const deliverySchema = new Schema({
     required: true,
   },
   zipCode: {
-    type: String,
+    type: Number,
     required: true
   },
   deliveryInstructions: {
