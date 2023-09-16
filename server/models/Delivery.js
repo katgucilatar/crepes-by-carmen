@@ -4,6 +4,10 @@ const { Schema } = require('mongoose');
 
 // subdocument schema for myOrder array in User model
 const deliverySchema = new Schema({
+  deliveryId: {
+    type: String,
+    required: true,
+  },
   addressLineOne: {
     type: String,
     required: true,
