@@ -11,15 +11,8 @@ const { signToken, AuthenticationError } = require('../utils/auth');
 const resolvers = {
     Query: {
         currentUser: async (parent, { email }) => User.findOne({ email }),
-        userOrder: async (parent, { email }) => {
-          const params = email ? { email } : {};
-          return Order.find(params);
-        },
-        allCrepes: async () => { 
+        crepes: async () => { 
             return Order.find(); 
-        },
-        singleCrepe: async (parent, {crepeId}) => {
-            return Order.findOne({ _id: crepeId });
         }
     },
 
