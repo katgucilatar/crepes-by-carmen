@@ -56,9 +56,7 @@ input DeliveryInput {
 
 type Query {
   currentUser(email: String!): User
-  userOrder: [Order!]!
-  allCrepes: [Order]!
-  singleCrepe(crepeId: ID!): Order!
+  getCrepes: [Order]!
 }
 
 type Mutation {
