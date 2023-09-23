@@ -1,0 +1,32 @@
+[
+    {
+        "item": "Banana Nutella Crepes",
+        "crepeId": 1, 
+        "price": 12
+    },
+    {
+        "item": "Butter-Sugar Crepes",
+        "crepeId": 2, 
+        "price": 12
+    },
+    {
+        "item": "Churro Crepes",
+        "crepeId": 3, 
+        "price": 12
+    },
+    {
+        "item": "Nutella Crepes",
+        "crepeId": 4, 
+        "price": 12
+    },
+    {
+        "item": "Strawberry Nutella Crepes",
+        "crepeId": 5, 
+        "price": 12
+    },
+    {
+        "item": "Very Berry Crepes",
+        "crepeId": 6, 
+        "price": 12
+    }
+]

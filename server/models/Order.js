@@ -21,14 +21,11 @@ const orderSchema = new Schema({
   },
   image: {
     type: String,
-    required: true,
   },
   addedToCart: {
-    type: Boolean,
-    required: true
+    type: Boolean
   }
 });
 
-const Order = model('Order', orderSchema);
 
-module.exports = Order;
+module.exports = orderSchema;
